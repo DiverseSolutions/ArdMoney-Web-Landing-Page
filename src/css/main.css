@@ -2,6 +2,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.button-linear-bg {
+  background: linear-gradient(94.15deg, #FF4D00 -2.76%, #E84B36 11.44%, #CB3965 34.9%, #B93131 57.74%, #AE2BA1 76.52%, #6D1AAF 93.54%), #C4C4C4;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
