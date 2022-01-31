@@ -1,9 +1,10 @@
 import IntroBannerPicture from '../assets/introBannerPicture.png';
+import IntroArdMoneyPicture from '../assets/introArdMoneyPicture.png'
 
 function IntroText(){
   return (
     <>
-      <div class="text-center m-0 p-0">
+      <div class="text-center relative z-20 m-0 p-0">
         <h3 class="text-lg">Mongolia’s First DAO</h3>
         <div class="mt-4 mb-12 font-bold">
           <h1 class="text-7xl">Bringing True</h1>
@@ -22,7 +23,7 @@ function IntroText(){
 function IntroBanner(){
   return (
     <>
-      <div class="w-full flex justify-center mt-24">
+      <div class="w-full flex relative z-20 justify-center mt-24">
         <div class="rounded-lg w-9/12 px-16 intro-banner-linear-bg flex justify-around items-center">
           <div>
             <h2 class="text-6xl font-bold">Санхүүгийн оролцооны</h2>
@@ -41,7 +42,7 @@ function IntroBanner(){
 function IntroEndingText(){
   return (
     <>
-      <div class="pt-20 w-full flex justify-center">
+      <div class="pt-20 w-full relative z-20 flex justify-center">
         <div class="text-center w-8/12">
           <h2 class="text-3xl font-bold">Lorem Ipsum Lorem Ipsum</h2>
           <p class="font-extralight mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
@@ -59,8 +60,11 @@ export default function introSection() {
   return (
     <>
       <div class="bg-primary py-20 text-white">
-        <IntroText />
-        <IntroBanner />
+        <div class="relative">
+          <IntroText />
+          <IntroBanner />
+          <img class="absolute bottom-8 -left-28 z-10" src={IntroArdMoneyPicture} alt="" />
+        </div>
         <IntroEndingText />
       </div>
     </>
