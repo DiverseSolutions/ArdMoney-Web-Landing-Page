@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#130E22',
+        'polygon': '#6C1BAF',
+        'bsc': '#F64D15',
       }
     },
   },
