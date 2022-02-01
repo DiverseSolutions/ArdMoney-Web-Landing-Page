@@ -2,7 +2,7 @@ export default function ArdMoneyFeaturesSection() {
 
   const liStyle = `w-5/12`;
   const cardTitleStyle = `text-2xl font-semibold mb-6`;
-  const cardSubStyle = `font-extralight text-xs uppercase w-9/12`;
+  const cardSubStyle = `font-light text-xs uppercase w-9/12`;
 
   return (
     <div class="ardMoney-features-bg w-full py-16 flex flex-col items-center">

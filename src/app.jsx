@@ -3,6 +3,7 @@ import IntroSection from './components/introSection.jsx'
 import FeaturesSection from './components/featuresSection.jsx'
 import VideoSection from './components/videoSection.jsx'
 import ArdMoneyFeaturesSection from './components/ardMoneyFeaturesSection.jsx'
+import BlogSection from './components/blogSection.jsx'
 
 export function App(props) {
   return (
@@ -13,6 +14,7 @@ export function App(props) {
         <FeaturesSection />
         <VideoSection />
         <ArdMoneyFeaturesSection />
+        <BlogSection />
       </div>
     </>
   )
