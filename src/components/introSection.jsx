@@ -4,7 +4,7 @@ import IntroArdMoneyPicture from '../assets/introArdMoneyPicture.png'
 function IntroText(){
   return (
     <>
-      <div class="text-center relative z-20 m-0 p-0">
+      <div class="pt-24 text-center relative z-20 m-0 p-0">
         <h3 class="text-lg">Mongolia’s First DAO</h3>
         <div class="mt-4 mb-12 font-bold">
           <h1 class="text-7xl">Bringing True</h1>
@@ -12,8 +12,8 @@ function IntroText(){
         </div>
 
         <div class="inline font-bold">
-          <a href="#" class="inline-block bg-polygon w-64 rounded py-3 mr-5">Polygon</a>
-          <a href="#" class="inline-block bg-bsc w-64 rounded py-3">Binance Smart Chain</a>
+          <a href="#" class="inline-block bg-polygon w-64 rounded-lg py-3 mr-5">Polygon</a>
+          <a href="#" class="inline-block bg-bsc w-64 rounded-lg py-3">Binance Smart Chain</a>
         </div>
       </div>
     </>
@@ -42,10 +42,10 @@ function IntroBanner(){
 function IntroEndingText(){
   return (
     <>
-      <div class="pt-20 w-full relative z-20 flex justify-center">
-        <div class="text-center w-8/12">
-          <h2 class="text-3xl font-bold">Lorem Ipsum Lorem Ipsum</h2>
-          <p class="font-extralight mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+      <div class="py-32 w-full relative z-20 flex justify-center">
+        <div class="text-center w-9/12">
+          <h2 class="text-4xl font-bold">Lorem Ipsum Lorem Ipsum</h2>
+          <p class="font-extralight text-lg mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
         </div>
       </div>
     </>
@@ -59,7 +59,7 @@ function IntroEndingText(){
 export default function introSection() {
   return (
     <>
-      <div class="bg-primary py-20 text-white">
+      <div class="text-white">
         <div class="relative">
           <IntroText />
           <IntroBanner />

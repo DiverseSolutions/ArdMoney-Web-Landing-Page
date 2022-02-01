@@ -2,7 +2,7 @@ import Logo from '../assets/logo.png'
 
 export default function Navigation() {
   return (
-    <div class="relative bg-primary px-12 text-white">
+    <div class="relative px-12 text-white">
       <div class="h-16 flex justify-between align-center w-full">
         <img src={Logo} class="z-10 cursor-pointer" alt="" />
 
