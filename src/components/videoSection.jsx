@@ -19,8 +19,8 @@ function Videos(){
         <ul class="w-9/12 my-32 flex justify-around">
 
           <li className="">
-            <h1 class="text-center font-semibold text-lg mb-3">DAO & DEFI</h1>
-            <iframe class="w-96 h-72 rounded-lg" src="https://www.youtube.com/embed/0HMA_y4V_Qo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen=""></iframe>
+            <h1 class="text-center font-semibold text-lg mb-3">ArdMoney</h1>
+            <iframe class="w-96 h-72 rounded-lg" src="https://www.youtube.com/embed/Wfc6AJVA8O4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen=""></iframe>
           </li>
 
           <li className="">
@@ -29,8 +29,8 @@ function Videos(){
           </li>
 
           <li className="">
-            <h1 class="text-center font-semibold text-lg mb-3">ArdMoney</h1>
-            <iframe class="w-96 h-72 rounded-lg" src="https://www.youtube.com/embed/Wfc6AJVA8O4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen=""></iframe>
+            <h1 class="text-center font-semibold text-lg mb-3">DAO</h1>
+            <iframe class="w-96 h-72 rounded-lg" src="https://www.youtube.com/embed/0HMA_y4V_Qo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen=""></iframe>
           </li>
 
         </ul>
