@@ -5,6 +5,7 @@ import VideoSection from './components/videoSection.jsx'
 import ArdMoneyFeaturesSection from './components/ardMoneyFeaturesSection.jsx'
 import BlogSection from './components/blogSection.jsx'
 import CommunitySection from './components/communitySection.jsx'
+import Footer from './components/footer.jsx'
 
 export function App(props) {
   return (
@@ -17,6 +18,7 @@ export function App(props) {
         <ArdMoneyFeaturesSection />
         <BlogSection />
         <CommunitySection />
+        <Footer />
       </div>
     </>
   )
