@@ -27,6 +27,10 @@ body {
    background: radial-gradient(61.9% 61.9% at 28.37% 31.13%, #8F8FE1 0%, rgba(140, 140, 225, 0) 53.65%), radial-gradient(26.32% 26.32% at 6.91% 55.17%, #C35D79 0%, rgba(195, 93, 121, 0) 96.88%), linear-gradient(204.68deg, #49C8DD 0%, #85B7E1 21.88%, #D6A0E7 51.04%, #D69C9C 78.65%, #D697AA 100%), linear-gradient(155.32deg, #5587D8 0%, #E5BDAA 100%);
 }
 
+.community-button-linear-bg {
+ background: linear-gradient(94.15deg, #FF4D00 -2.76%, #E84B36 11.44%, #CB3965 34.9%, #B93131 57.74%, #AE2BA1 76.52%, #6D1AAF 93.54%), #C4C4C4;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -10,6 +10,7 @@ module.exports = {
         'primary-mini': "#1A162A",
         'polygon': '#6C1BAF',
         'bsc': '#F64D15',
+
       }
     },
   },
