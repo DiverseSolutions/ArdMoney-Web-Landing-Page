@@ -1,12 +1,12 @@
 export default function ArdMoneyFeaturesSection() {
 
   const liStyle = `w-9/12 sm:w-5/12`;
-  const cardTitleStyle = `text-2xl text-center sm:text-left font-semibold mb-6`;
-  const cardSubStyle = `font-light mb-12 sm:mb-0 text-center sm:text-left text-xs uppercase w-full sm:w-11/12 2xl:w-9/12`;
+  const cardTitleStyle = `text-2xl text-left font-semibold mb-4 sm:mb-6`;
+  const cardSubStyle = `font-light mb-12 sm:mb-0 text-left text-xs uppercase w-full sm:w-11/12 2xl:w-9/12`;
 
   return (
     <div class="ardMoney-features-bg w-full py-16 flex flex-col items-center">
-      <h1 class="text-center font-bold text-2xl sm:text-4xl mb-12">АрдМааний онцлог</h1>
+      <h1 class="text-center font-bold text-3xl sm:text-4xl mb-12">АрдМааний онцлог</h1>
 
       <ul class="flex flex-col items-center sm:flex-row w-full sm:w-10/12 2xl:w-8/12 justify-between">
         <li class={liStyle}>
