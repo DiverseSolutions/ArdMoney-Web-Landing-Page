@@ -14,22 +14,22 @@ export default function Navigation() {
         </a>
 
         <div class="z-10 text-base hidden sm:flex items-center text-sm h-auto">
-          <a href="#" class="mr-5 2xl:hidden">Partners</a>
-          <a href="#" class="mr-5 2xl:hidden">Features</a>
-          <a href="#" class="mr-5 2xl:hidden">Governance</a>
+          <a href="#" class="mr-5 2xl:hidden">Боломжууд</a>
+          <a href="#" class="mr-5 2xl:hidden">Онцлог</a>
+          <a href="#" class="mr-5 2xl:hidden">Мэдээлэл</a>
 
           <a href="#" class="mr-5">BSC Scan</a>
           <a href="#" class="mr-5">Polygon Scan</a>
           <a href="#" class="mr-5">Whitepaper</a>
-          <button class="mr-2 text-sm button-linear-bg px-4 py-2 rounded-full">Coming Soon</button>
+          <button class="mr-2 text-sm button-linear-bg px-4 py-2 rounded-full">Тун удахгүй</button>
           <button class="text-sm button-linear-bg px-4 py-2 rounded-full">EN / MN</button>
         </div>
       </div>
 
       <div class="h-16 w-full items-center justify-center absolute top-0 left-0 hidden 2xl:flex">
-        <a href="#">Partners</a>
-        <a href="#" class="px-4">Features</a>
-        <a href="#">Governance</a>
+        <a href="#">Боломжууд</a>
+        <a href="#" class="px-4">Онцлог</a>
+        <a href="#">Мэдээлэл</a>
       </div>
     </div>
   )

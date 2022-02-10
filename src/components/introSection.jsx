@@ -5,10 +5,10 @@ function IntroText(){
   return (
     <>
       <div class="pt-24 text-center relative z-20 m-0 p-0">
-        <h3 class="text-sm sm:text-lg">Mongolia’s First DAO</h3>
+        <h3 class="text-sm sm:text-lg">Монголын анхны DAO</h3>
         <div class="mt-4 mb-12 font-bold">
-          <h1 class="text-4xl sm:text-7xl">Bringing True</h1>
-          <h1 class="text-4xl sm:text-7xl mt-1">Permissionless System</h1>
+          <h1 class="text-4xl sm:text-7xl">Санхүүгийн Бүрэн</h1>
+          <h1 class="text-4xl sm:text-7xl mt-1">Нээлттэй Систем</h1>
         </div>
 
         <div class="inline font-bold">
@@ -44,8 +44,8 @@ function IntroEndingText(){
     <>
       <div class="py-32 w-full relative z-20 flex justify-center">
         <div class="text-center w-11/12 2xl:w-9/12">
-          <h2 class="text-2xl sm:text-4xl font-bold">Lorem Ipsum Lorem Ipsum</h2>
-          <p class="font-extralight text-sm sm:text-lg mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+          <h2 class="text-2xl sm:text-4xl font-bold">Виртуал хөрөнгийн дэвшилтэт протокол</h2>
+          <p class="font-extralight text-sm sm:text-lg mt-4">Олон сүлжээт Layer 2 виртуал хөрөнгийн протокол нь төвлөрсөн бус санхүүгийн хамгийн шимтгэл бага, хамгийн хурдан үйлчилгээг үзүүлэх болно.</p>
         </div>
       </div>
     </>

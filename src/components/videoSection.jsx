@@ -5,7 +5,7 @@ function VideoIntroText(){
       <div class="pt-32 w-full relative z-20 flex justify-center">
         <div class="text-center w-11/12 2xl:w-9/12">
           <h2 class="text-2xl sm:text-4xl font-bold">Суурь ойлголтууд</h2>
-          <p class="font-extralight text-sm sm:text-lg mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+          <p class="font-extralight text-sm sm:text-lg mt-4">Төвлөрсөн бус санхүүгийн талаар анх удаа сонсож байна уу? Доорх бичлэгүүдтэй танилцаж ArdMoney төслийн дэвшүүлж буй санхүүгийн шинэчлэлтийн талаар суралцаарай.</p>
         </div>
       </div>
     </>
