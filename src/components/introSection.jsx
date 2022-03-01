@@ -1,10 +1,12 @@
 import IntroBannerPicture from '../assets/introBannerPicture.png';
 import IntroArdMoneyPicture from '../assets/introArdMoneyPicture.png'
 
+import constants from '../utility/constants.js'
+
 function IntroText(){
   return (
     <>
-      <div class="pt-24 text-center relative z-20 m-0 p-0">
+      <div class="pt-12 md:pt-24 text-center relative z-20 m-0 p-0">
         <h3 class="text-sm sm:text-lg">Монголын анхны DAO</h3>
         <div class="mt-4 mb-12 font-bold">
           <h1 class="text-4xl sm:text-7xl">Санхүүгийн Бүрэн</h1>
@@ -12,8 +14,8 @@ function IntroText(){
         </div>
 
         <div class="inline font-bold">
-          <a href="https://polygonscan.com/address/0x87ee9B1D25d7fd609CAadBa5f8c14F4e219650bD" target="_blank" class="inline-block bg-polygon w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3 mr-5">Polygon</a>
-          <a href="https://bscscan.com/tx/0x76630953b0fa547b0159a867c57143c739402f2a8f9c3f21c3a5c7b926a5db41" target="_blank" class="inline-block bg-bsc w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3">Binance Smart Chain</a>
+          <a href={constants.POLYGON_ADDRESS} target="_blank" class="inline-block bg-polygon w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3 mr-5">Polygon</a>
+          <a href={constants.BSC_ADDRESS} target="_blank" class="inline-block bg-bsc w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3">Binance Smart Chain</a>
         </div>
       </div>
     </>

@@ -7,19 +7,19 @@ import BlogSection from './components/blogSection.jsx'
 import CommunitySection from './components/communitySection.jsx'
 import Footer from './components/footer.jsx'
 
-export function App(props) {
+export function App() {
   return (
     <>
-      <div class="bg-primary text-white">
-        <Navigation />
-        <IntroSection />
-        <FeaturesSection />
-        <VideoSection />
-        <ArdMoneyFeaturesSection />
-        <BlogSection />
-        <CommunitySection />
-        <Footer />
-      </div>
+        <div class="bg-primary text-white">
+          <Navigation />
+          <IntroSection />
+          <FeaturesSection />
+          <VideoSection />
+          <ArdMoneyFeaturesSection />
+          <BlogSection />
+          <CommunitySection />
+          <Footer />
+        </div>
     </>
   )
 }

@@ -2,11 +2,12 @@ import featureDaoImg from '../assets/feature-dao.png'
 import featureDefiImg from '../assets/feature-defi.png'
 import featureDexImg from '../assets/feature-dex.png'
 
+import { Element } from 'react-scroll'
 
 export default function FeaturesSection() {
   return (
     <>
-      <div class="w-full flex relative z-20 justify-center">
+      <Element name="opportunities" class="w-full flex relative z-20 justify-center">
         <div class="rounded-lg bg-primary-mini py-8 w-11/12 2xl:w-9/12 px-8 flex justify-around items-center sm:items-start">
 
           <ul class="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left">
@@ -39,7 +40,7 @@ export default function FeaturesSection() {
 
           </ul>
         </div>
-      </div>
+      </Element>
     </>
   )
 }

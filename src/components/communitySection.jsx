@@ -9,15 +9,15 @@ export default function CommunitySection() {
 
           <div class="px-8 text-center sm:text-left sm:pl-20 basis-10/12 flex flex-col justify-around order-2 sm:order-1">
             <h1 class="text-2xl sm:text-5xl font-bold">Бидэнтэй Нэгд!</h1>
-            <p class="text-md sm:text-2xl my-5 sm:m-0 text-gray-400">ArdMoney төслийн талаарх хамгийн шинэлэг мэдээлэл, зарлал аваад зогсохгүй, бусад ArdMoney эзэмшигчидтэй нэгд!</p>
+            <p class="text-md sm:text-2xl md:text-lg my-5 sm:m-0 text-gray-400">ArdMoney төслийн талаарх хамгийн шинэлэг мэдээлэл, зарлал аваад зогсохгүй, бусад ArdMoney эзэмшигчидтэй нэгд!</p>
 
-            <div class="flex flex-wrap sm:flex-nowrap justify-center sm:justify-between">
+            <div class="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start">
               <a href="#" class="inline-block mb-5 sm:m-0 w-52 sm:w-auto text-md sm:px-11 justify-center py-3 rounded-lg flex text-xl community-button-linear-bg items-center">
-                <span class="">Telegram-д нэгдэх</span>
+                <span class="">Telegram</span>
                 <div class="ml-3"><img src={arrowIcon} alt="arrowIcon" /></div>
               </a>
-              <a href="#" class="inline-block w-52 sm:w-auto sm:px-12 justify-center py-3 rounded-lg flex text-xl community-button-linear-bg items-center">
-                <span class="">Discord-д нэгдэх</span>
+              <a href="#" class="inline-block md:ml-4 w-52 sm:w-auto sm:px-12 justify-center py-3 rounded-lg flex text-xl community-button-linear-bg items-center">
+                <span class="">Discord</span>
                 <div class="ml-3"><img src={arrowIcon} alt="arrowIcon" /></div>
               </a>
             </div>
