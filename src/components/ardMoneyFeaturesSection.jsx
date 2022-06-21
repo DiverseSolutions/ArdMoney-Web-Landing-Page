@@ -2,7 +2,7 @@ import { Element } from 'react-scroll'
 
 export default function ArdMoneyFeaturesSection() {
 
-  const liStyle = `w-9/12 sm:w-5/12`;
+  const liStyle = `w-9/12 sm:w-5/12 h-44`;
   const cardTitleStyle = `text-2xl text-left font-semibold mb-4 sm:mb-6`;
   const cardSubStyle = `font-light mb-12 sm:mb-0 text-left text-xs uppercase w-full sm:w-11/12 2xl:w-9/12`;
 
@@ -12,8 +12,8 @@ export default function ArdMoneyFeaturesSection() {
 
       <ul class="flex flex-col items-center sm:flex-row w-full sm:w-10/12 2xl:w-8/12 justify-between">
         <li class={liStyle}>
-          <h2 class={cardTitleStyle} >Polygon</h2>
-          <p class={cardSubStyle} >Polygon сүлжээ нь 1 секундэд 65.000 гүйлгээ батлах чадвартай. Энэ нь АрдМааний протокол хамгийн хурдан санхүүгийн үйлчилгээг үзүүлнэ гэсэн үг юм.</p>
+          <h2 class={cardTitleStyle} >Динамик шимтгэл</h2>
+          <p class={cardSubStyle} >Эрсдэл болон хэрэглээнээс хамааран, хөрөнгийн своп шимтгэлүүдийг динамик байдлаар тогтоох боломжтой. Энэ нь хэрэглэгчдэд хамгийн тохиромжтой үйлчилгээг авах боломжийг үүсгэж байгаа юм.</p>
         </li>
 
         <li class={liStyle}>
