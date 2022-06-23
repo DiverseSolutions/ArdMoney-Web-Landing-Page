@@ -8,7 +8,7 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 export default function Navigation() {
 
   return (
-    <div class="relative px-6 sm:px-12 sm:pt-0 md:pt-2 text-white">
+    <div class="relative pt-10 px-6 sm:px-12 sm:pt-0 md:pt-2 text-white">
 
       <div class="h-16 flex justify-center md:justify-between items-center w-full">
         <a href="#">
