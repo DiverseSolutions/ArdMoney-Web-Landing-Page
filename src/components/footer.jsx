@@ -3,7 +3,7 @@ import FooterIcon from '../assets/footerIcon.png'
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center px-16 py-10 md:py-5 md:flex-row">
+    <div className="flex flex-col items-center px-16 py-10 mt-20 bg-primary-mini md:py-5 md:flex-row">
       <div className="flex flex-col items-center w-full md:w-5/12 md:flex-row gap-5 md:gap-10">
         <div>
           <img src={FooterIcon} alt="" className="w-24 h-auto md:w-48" />

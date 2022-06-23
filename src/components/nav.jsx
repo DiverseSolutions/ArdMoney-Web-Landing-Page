@@ -1,5 +1,6 @@
 import Logo from '../assets/logo.png'
 import NavBurgerIcon from '../assets/navBurgerIcon.png'
+import LitePaper from '../assets/LitePaper.pdf';
 
 import constants from '../utility/constants.js'
 
@@ -25,7 +26,7 @@ export default function Navigation() {
 
           <a href={constants.BSC_ADDRESS} class="mr-5">BSC Scan</a>
           <a href={constants.POLYGON_ADDRESS} class="mr-5">Polygon Scan</a>
-          <a href="#" class="mr-5">Whitepaper</a>
+          <a href={LitePaper} class="mr-5">Litepaper</a>
           {/* <button class="mr-2 text-sm button-linear-bg px-4 py-2 rounded-full">Тун удахгүй</button> */}
           {/* <button class="text-sm button-linear-bg px-4 py-2 rounded-full">EN / MN</button> */}
         </div>
