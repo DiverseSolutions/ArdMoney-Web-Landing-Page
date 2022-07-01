@@ -7,9 +7,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "i18next": "^21.8.11",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
     "normalize.css": "^8.0.1",
     "preact": "^10.5.15",
     "preact-compat": "^3.19.0",
+    "react-i18next": "^11.17.3",
     "react-scroll": "^1.8.5",
     "react-smooth-scrolling": "^1.0.2",
     "react-use-medium": "^1.0.5"
