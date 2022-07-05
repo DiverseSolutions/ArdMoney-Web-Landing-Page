@@ -1,7 +1,7 @@
 import { Trans, useTranslation } from "react-i18next";
-import featureDaoImg from "../assets/feature-dao.png";
-import featureDefiImg from "../assets/feature-defi.png";
-import featureDexImg from "../assets/feature-dex.png";
+import featureDaoImg from "../assets/dao.png";
+import featureDefiImg from "../assets/defi.png";
+import featureDexImg from "../assets/dex.png";
 
 import { Element } from "react-scroll";
 
