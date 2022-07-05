@@ -15,7 +15,7 @@ function IntroText() {
         <div class='mt-4 mb-12 font-bold flex justify-center text-center'>
           <div className='w-1/2'>
             <span class='text-4xl sm:text-7xl'>
-              {t("financial_complete_open_system")}
+              {t("financial_system_without_boundaries")}
             </span>
           </div>
 

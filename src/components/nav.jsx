@@ -52,13 +52,13 @@ export default function Navigation() {
           </Link>
 
           <a href={constants.BSC_ADDRESS} class='mr-5'>
-            BSC Scan
+            BscScan
           </a>
           <a href={constants.POLYGON_ADDRESS} class='mr-5'>
-            Polygon Scan
+            PolygonScan
           </a>
           <a href={LitePaper} class='mr-5'>
-            description Litepaper
+            Litepaper
           </a>
           <div class='inline-flex shadow-sm' role='group'>
             <button
