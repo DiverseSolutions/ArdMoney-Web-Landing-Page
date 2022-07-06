@@ -51,13 +51,13 @@ export default function Navigation() {
             Мэдээлэл
           </Link>
 
-          <a href={constants.BSC_ADDRESS} class='mr-5'>
+          <a href={constants.BSC_ADDRESS} class='mr-5' target={"_blank"}>
             BscScan
           </a>
-          <a href={constants.POLYGON_ADDRESS} class='mr-5'>
+          <a href={constants.POLYGON_ADDRESS} class='mr-5' target={"_blank"}>
             PolygonScan
           </a>
-          <a href={LitePaper} class='mr-5'>
+          <a href={LitePaper} class='mr-5' target={"_blank"}>
             Litepaper
           </a>
           <div class='inline-flex shadow-sm' role='group'>
