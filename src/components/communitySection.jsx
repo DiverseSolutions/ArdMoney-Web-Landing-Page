@@ -16,8 +16,9 @@ export default function CommunitySection() {
 
             <div class='flex flex-wrap sm:flex-nowrap justify-center sm:justify-start'>
               <a
-                href='#'
+                href='https://t.me/Ardcoin_ArdMoney'
                 class='inline-block mb-5 sm:m-0 w-52 sm:w-auto text-md sm:px-11 justify-center py-3 rounded-lg flex text-xl community-button-linear-bg items-center'
+                target={"_blank"}
               >
                 <span class=''>Telegram</span>
                 <div class='ml-3'>
@@ -27,6 +28,7 @@ export default function CommunitySection() {
               <a
                 href='https://twitter.com/AxxmLabs'
                 class='inline-block md:ml-4 w-52 sm:w-auto sm:px-12 justify-center py-3 rounded-lg flex text-xl community-button-linear-bg items-center'
+                target={"_blank"}
               >
                 <span class=''>Twitter</span>
                 <div class='ml-3'>

@@ -6,11 +6,11 @@ function VideoIntroText() {
     <>
       <div class='pt-32 w-full relative z-20 flex justify-center'>
         <div class='text-center w-11/12 2xl:w-9/12'>
-          <h2 class='text-2xl sm:text-4xl font-bold'>{t("core_concepts")}</h2>
+          <h2 class='text-2xl sm:text-4xl font-bold'>
+            {t("learn_these_concepts")}
+          </h2>
           <p class='font-extralight text-sm sm:text-lg mt-4'>
-            Төвлөрсөн бус санхүүгийн талаар анх удаа сонсож байна уу? Доорх
-            бичлэгүүдтэй танилцаж ArdMoney төслийн дэвшүүлж буй санхүүгийн
-            шинэчлэлтийн талаар суралцаарай.
+            {t("first_time_hearing")}
           </p>
         </div>
       </div>

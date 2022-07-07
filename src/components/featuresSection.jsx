@@ -42,8 +42,7 @@ export default function FeaturesSection() {
               <h2 class='text-3xl font-semibold my-3 sm:mb-3 sm:mt-10'>DEX</h2>
               <p class='font-extralight mb-2 h-14'>{t("your_exchange")}</p>
               <p class='font-extralight text-sm'>
-                DEX буюу төвлөрсөн бус бирж нь автоматжуулсан ухаалаг гэрээнд
-                тулгуурлан дундын зуучлагчгүйгээр арилжаа хийх боломжийг олгоно.
+                {t("smart_contracts_allow")}
               </p>
             </li>
 
@@ -54,13 +53,8 @@ export default function FeaturesSection() {
                 alt='ardmoney-feature-dao'
               />
               <h2 class='text-3xl font-semibold my-3 sm:mb-3 sm:mt-10'>DAO</h2>
-              <p class='font-extralight mb-2 h-14'>
-                Шийдвэр гаргалт бүрд оролцоно.
-              </p>
-              <p class='font-extralight text-sm'>
-                АрдМааний үйл ажиллагаатай холбоотой дэвшүүлсэн санал нь олонхын
-                саналаар хэрэгжинэ.
-              </p>
+              <p class='font-extralight mb-2 h-14'>{t("by_the_people")}</p>
+              <p class='font-extralight text-sm'>{t("ardMoney_protocol_is")}</p>
             </li>
           </ul>
         </div>

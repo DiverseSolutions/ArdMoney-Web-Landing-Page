@@ -17,7 +17,9 @@ export default function BlogSection() {
   return (
     <>
       <Element class='py-20 flex flex-col items-center' name='news'>
-        <h1 class='pb-20 text-3xl font-semibold text-center'>Blog Posts</h1>
+        <h1 class='pb-20 text-3xl font-semibold text-center'>
+          {t("blog_post")}
+        </h1>
 
         {isFetched ? (
           <ul class='flex flex-col items-center sm:flex-row flex-wrap justify-between w-11/12 2xl:w-9/12'>

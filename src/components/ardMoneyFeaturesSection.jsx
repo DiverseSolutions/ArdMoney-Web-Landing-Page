@@ -13,7 +13,7 @@ export default function ArdMoneyFeaturesSection() {
       name='features'
     >
       <h1 class='text-center font-bold text-3xl sm:text-4xl mb-12'>
-        {t("pillars_of_ardMoney")}
+        {t("four_pillars_of_ardMoney")}
       </h1>
 
       <ul class='flex flex-col items-center sm:flex-row w-full sm:w-10/12 2xl:w-8/12 justify-between'>
@@ -24,24 +24,17 @@ export default function ArdMoneyFeaturesSection() {
 
         <li class={liStyle}>
           <h2 class={cardTitleStyle}>{t("multichain")}</h2>
-          <p class={cardSubStyle}>{t("ardMoney_is_deployed")}</p>
+          <p class={cardSubStyle}>{t("users_will_be_able")}</p>
         </li>
 
         <li class={liStyle}>
           <h2 class={cardTitleStyle}>{t("permissionless")}</h2>
-          <p class={cardSubStyle}>
-            Монгол койнуудыг дэлхийн тавцанд гаргах DEX байх болно. Гадаад орны
-            хөрөнгө оруулагчид Монгол блокчэйн төслүүдэд хөрөнгө оруулах хамгийн
-            хурдан, хялбар зам байх болно.
-          </p>
+          <p class={cardSubStyle}>{t("ardMoney_will_serve")}</p>
         </li>
 
         <li class={liStyle}>
           <h2 class={cardTitleStyle}>{t("decentralized")}</h2>
-          <p class={cardSubStyle}>
-            АрдМааний эзэмшигчид бүх шинэчлэлт, сайжруулалтанд саналаа өгч
-            оролцох боломжтой.
-          </p>
+          <p class={cardSubStyle}>{t("ardMoney_is_governed")}</p>
         </li>
       </ul>
     </Element>

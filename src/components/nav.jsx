@@ -42,13 +42,13 @@ export default function Navigation() {
 
         <div class='z-10 text-base hidden sm:flex items-center te xt-sm h-auto'>
           <Link to='opportunities' class='mr-5 cursor-pointer 2xl:hidden'>
-            Боломжууд
+            {t("ardMoney")}
           </Link>
           <Link to='features' class='mr-5 cursor-pointer 2xl:hidden'>
-            Онцлог
+            {t("features")}
           </Link>
           <Link to='news' class='mr-5 cursor-pointer 2xl:hidden'>
-            Мэдээлэл
+            {t("blog_post")}
           </Link>
 
           <a href={constants.BSC_ADDRESS} class='mr-5' target={"_blank"}>
