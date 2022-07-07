@@ -57,6 +57,9 @@ export default function Navigation() {
           <a href={constants.POLYGON_ADDRESS} class='mr-5' target={"_blank"}>
             PolygonScan
           </a>
+          <a href={"https://app.ardmoney.com/"} class='mr-5' target={"_blank"}>
+            Application
+          </a>
           <a href={LitePaper} class='mr-5' target={"_blank"}>
             Litepaper
           </a>

@@ -86,23 +86,52 @@ export default function Footer() {
       <div className='flex flex-col items-start justify-around w-full py-10 md:w-6/12 md:flex-row grow gap-10'>
         <div className='flex flex-col items-center w-full'>
           <h5 className='font-bold text-md'>PRODUCTS</h5>
-          <ul className='flex flex-col mt-2 text-md gap-1'>
-            <li>DEX</li>
+          <ul className='flex flex-col mt-2 text-md gap-1 items-center'>
+            <li className='hover:underline cursor-pointer'>
+              <a target={"_blank"} href={"https://app.ardmoney.com/"}>
+                DEX
+              </a>
+            </li>
+            <li className='hover:underline'>
+              <a target={"_blank"} href={"https://faucet.dsolutions.mn/"}>
+                Testnet
+              </a>
+            </li>
           </ul>
         </div>
         <div className='flex flex-col items-center w-full'>
           <h5 className='font-bold text-md'>HELP</h5>
           <ul className='flex flex-col mt-2 text-center text-md gap-1'>
-            <li>What is ARDM?</li>
-            <li>Apply for Listing</li>
-            <li>Buy ARDM</li>
+            <li className='hover:underline'>
+              <a
+                target={"_blank"}
+                href='https://www.youtube.com/watch?v=Wfc6AJVA8O4'
+              >
+                What is ARDM?
+              </a>
+            </li>
+            <li className='hover:underline'>
+              <a href='mailto:info@ardmoney.org'>Apply for Listing</a>
+            </li>
+            <li className='hover:underline'>
+              <a
+                target={"_blank"}
+                href='https://www.idax.exchange/mn_MN/newTrade/ARDM_MONT'
+              >
+                Buy ARDM
+              </a>
+            </li>
           </ul>
         </div>
         <div className='flex flex-col items-center w-full'>
           <h5 className='font-bold text-md'>GOVERNANCE</h5>
           <ul className='flex flex-col mt-2 text-center text-md gap-1'>
-            <li>Forum</li>
-            <li>Snapshot</li>
+            <li className='hover:underline'>
+              <a target={"_blank"} href='https://forum.ardmoney.com/'>
+                Forum
+              </a>
+            </li>
+            <li className='hover:underline cursor-pointer'>Snapshot</li>
           </ul>
         </div>
       </div>
