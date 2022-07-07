@@ -131,7 +131,14 @@ export default function Footer() {
                 Forum
               </a>
             </li>
-            <li className='hover:underline cursor-pointer'>Snapshot</li>
+            <li className='hover:underline cursor-pointer'>
+              <a
+                target={"_blank"}
+                href='https://snapshot.org/#/ardmoneydao.eth'
+              >
+                Snapshot
+              </a>
+            </li>
           </ul>
         </div>
       </div>
