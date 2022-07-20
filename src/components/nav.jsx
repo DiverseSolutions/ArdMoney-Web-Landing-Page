@@ -45,7 +45,7 @@ export default function Navigation() {
             {t("ardMoney")}
           </Link>
           <Link to='features' class='mr-5 cursor-pointer 2xl:hidden'>
-            {t("features")}
+            {t("financial_system_without_boundaries")}
           </Link>
           <Link to='news' class='mr-5 cursor-pointer 2xl:hidden'>
             {t("blog_post")}
@@ -88,13 +88,13 @@ export default function Navigation() {
 
       <div class='md:pt-5 h-16 w-full items-center justify-center absolute top-0 left-0 hidden 2xl:flex'>
         <Link to='opportunities' class='cursor-pointer'>
-          Боломжууд
+          {t("ardMoney")}
         </Link>
         <Link to='features' class='px-5 cursor-pointer'>
-          Онцлог
+          {t("financial_system_without_boundaries")}
         </Link>
         <Link to='news' class='cursor-pointer'>
-          Мэдээлэл
+          {t("blog_post")}
         </Link>
       </div>
     </div>
