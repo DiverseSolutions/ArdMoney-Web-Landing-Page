@@ -23,25 +23,25 @@ function IntroText() {
           <h1 class='text-4xl sm:text-7xl mt-1'>Нээлттэй Систем</h1> */}
         </div>
 
-        <div class='inline font-bold'>
+        <div class='inline flex flex-col md:flex-row items-center gap-3 justify-center font-bold'>
           <a
             href={constants.POLYGON_ADDRESS}
             target='_blank'
-            class='inline-block bg-polygon w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3 mr-5'
+            class='inline-block w-11/12 bg-polygon md:w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3'
           >
             Polygon
           </a>
           <a
             href={"https://app.ardmoney.com/"}
             target='_blank'
-            class='inline-block bg-yellow-500 w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3 mr-5'
+            class='inline-block w-11/12 bg-yellow-500 md:w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3'
           >
             Application
           </a>
           <a
             href={constants.BSC_ADDRESS}
             target='_blank'
-            class='inline-block bg-bsc w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3'
+            class='inline-block w-11/12 bg-bsc md:w-44 text-sm sm:text-md sm:w-64 rounded-lg py-3'
           >
             Binance Smart Chain
           </a>
