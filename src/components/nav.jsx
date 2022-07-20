@@ -88,10 +88,10 @@ export default function Navigation() {
 
       <div class='md:pt-5 h-16 w-full items-center justify-center absolute top-0 left-0 hidden 2xl:flex'>
         <Link to='opportunities' class='cursor-pointer'>
-          {t("ardMoney")}
+          {t("opportunities")}
         </Link>
         <Link to='features' class='px-5 cursor-pointer'>
-          {t("financial_system_without_boundaries")}
+          {t("features")}
         </Link>
         <Link to='news' class='cursor-pointer'>
           {t("blog_post")}
