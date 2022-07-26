@@ -45,7 +45,7 @@ export default function Navigation() {
             {t("ardMoney")}
           </Link>
           <Link to='features' class='mr-5 cursor-pointer 2xl:hidden'>
-            {t("financial_system_without_boundaries")}
+            {t("features")}
           </Link>
           <Link to='news' class='mr-5 cursor-pointer 2xl:hidden'>
             {t("blog_post")}
