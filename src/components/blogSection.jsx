@@ -23,7 +23,7 @@ export default function BlogSection() {
 
         {isFetched ? (
           <ul class='flex flex-col items-center sm:flex-row flex-wrap justify-between w-11/12 2xl:w-9/12'>
-            {data.items.splice(0, 3).map((item, key) => {
+            {data.items.slice(0, 3).map((item, key) => {
               return (
                 <li
                   class='w-11/12 text-center sm:text-left mb-20 sm:mb-0 sm:w-4/12 px-4'
